@@ -1,0 +1,395 @@
+/* Genel stil ayarları */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border: 1px solid #fafafa;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.navbar {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    background-color: #fefeff;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #1A1A1A;
+    font-weight: bold;
+}
+
+.icon {
+    width: 20px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-button {
+    padding: 10px 20px;
+    background-color: #fefeff;
+    color: rgb(15, 14, 14);
+    border: none;
+    border-radius: 20px;
+    border: 1px solid #1A1A1A;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    background-color: #333;
+}
+
+/* Boxx */
+.boxx {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: linear-gradient(to right, #c1dee8, #fad9b9);
+    margin: 20px 0;
+    width: 100%;
+    max-width: 1384px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    width: 479px;
+    height: 350px;
+}
+
+.large-text {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.email-form {
+    margin-top: 20px;
+}
+
+.input-group {
+    display: flex;
+    align-items: stretch;
+}
+
+.input-group input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    width: 100%;
+    border-right: none;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #1A1A1A;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    border-left: none;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #333;
+}
+
+/* Boxxx */
+.boxxx {
+    width: 100%;
+    height: 95px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.boxxx-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    max-width: 1384px;
+    height: 225px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inner-box {
+    width: 32%;
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.boxxx-image {
+    width: 75px;
+    height: 75px;
+}
+
+.llarge-text {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.large-textt {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Boxxxx */
+.boxxxx {
+    width: 75%;
+    height: 125px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 5rem;
+    margin-left: 16rem;
+    margin-bottom: 2rem;
+}
+
+.content-with-slider {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.slider-container {
+    display: flex;
+    margin-left: auto;
+    gap: 10px;
+}
+
+.slider-arrow {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.slider-arrow img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.boxxxx-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    max-width: 1384px;
+    height: 412px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxxxx-image {
+    width: 447px;
+    height: 263px;
+}
+
+.star-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.star-image {
+    width: 16px;
+    height: 17px;
+}
+
+/* Boxxxxx */
+.boxxxxx {
+    width: 100%;
+    height: 120px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+}
+.stats-container{
+    display: flex;
+
+}
+.stat-box{
+    margin-left: 5rem;
+}
+.stat-number{
+    font-size: 40px;
+    font-weight: bold; /* Yazıyı kalın yapar */
+
+}
+.boxxxxx-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    max-width: 1384px;
+    height: 622px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.innerr-box {
+    width: 32%;
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.boxxxxx-image {
+    width: 550px;
+    height: 577px;
+}
+
+/* Butonlar */
+.buttonn-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 3rem;
+}
+
+.buttonn {
+    width: 153px;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.book-now {
+    background-color: black;
+    color: white;
+}
+
+.read-more {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+}
+
+/* Responsive ayarlar */
+
+/* Mobil ekranlar */
+@media (max-width: 767px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar {
+        justify-content: flex-start;
+        margin-top: 10px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+
+    .contact-button {
+        margin-left: 0;
+    }
+
+    .boxx, .boxxx, .boxxxx, .boxxxxx {
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+
+    .content {
+        width: 100%;
+        height: auto;
+    }
+
+    .boxxx-container, .boxxxx-container, .boxxxxx-container {
+        flex-direction: column;
+    }
+
+    .inner-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .boxxxx-image, .boxxxxx-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .slider-arrow img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* Tablet ekranlar */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .boxx {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .boxxx-container, .boxxxx-container, .boxxxxx-container {
+        flex-direction: column;
+    }
+
+    .inner-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .boxxxx-image, .boxxxxx-image {
+        width: 100%;
+        height: auto;
+    }
+}
